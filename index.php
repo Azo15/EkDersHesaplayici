@@ -89,7 +89,7 @@
         $uygulama = min($uygulama, 10);
 
         // Ek ders ücretini hesapla
-        $ek_ucret = ($teorik + $uygulama) * $unvan_katsayi * $aylik_katsayi;
+        $ek_ucret = ($teorik + $uygulama) * $unvan_katsayi * $aylik_katsayi; 
 
         // Sonucu input alanına yazdır
         echo '<script>document.getElementById("ek_ucret").value = "' . number_format($ek_ucret, 2, ',', '.') . ' TL";</script>';
